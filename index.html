@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Đăng nhập</title>
+        <link rel="stylesheet" href="stylesheets.css">
+        <script src="./login.js"></script>
+    </head>
+    <body>    
+        <div class="container" style="width: 564px; height: 488px; padding:24px" >
+            <div style="display: flex; align-items: center; justify-content: center;width: auto;height: auto;">
+                <div style="padding: 0px;">
+                    <h1 style="color:rgb( 204 13 0 ); font-size: 14px; text-align: center;padding-bottom: 4px;">HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG</h1>
+                    <h1 style="font-size: 14px; text-align: center;">Posts and Telecommunications Institude of Technology</h1>
+                </div>
+            </div>
+            <div >
+            <form id="signup-form" style="position: relative; width: 100%; height: auto;">
+                <h2 style="color: red;">Đăng kí tài khoản</h2>
+                <div class="input-field">
+                    <label>Tên</label>
+                    <input  type = text id="signup-email" placeholder="Email" />
+                </div>
+                <div class="input-field">
+                    <label>Ngày sinh</label>
+                    <input type="date" id="signup-uname" placeholder="Ngày sinh" />
+                </div>   
+                <div class="input-field">
+                    <label>Số CCCD</label>
+                    <input  type = "text" id="signup-pass" placeholder="CCCD" />
+                </div>   
+                <div class="input-field">
+                    <label>Địa chỉ thường trú</label>
+                    <input  type ="text" id="signup-pass2" placeholder="Địa chỉ" />
+                </div>                     
+                <button class="login-btn" onclick="login()" type="submit">Làm khảo sát</button>
+            </form>
+            </div>    
+        </div>
+        
+    </body>
+</html>
+
+
